@@ -1,4 +1,4 @@
-# Denis Kibet
+# Triangle tracker
 
 ## Authors
 - [Denis Kibet](https://github.com/Kibet1816)
