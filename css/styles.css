@@ -4,13 +4,18 @@ h1 {
 }
 body {
 	background-color: yellowgreen;
+	background-image: url('../pics/abstract.jpg');
 }
 #answer {
 	font-style: oblique;
-	color: darkblue;
+	color: aliceblue;
 	font-size: x-large;
 	margin-left: -450px;
 }
 form {
 	margin-left: 500px;
+	line-height: 2em;
+}
+.formation p{
+	color: aliceblue;
 }
