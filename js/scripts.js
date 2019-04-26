@@ -6,9 +6,9 @@ function result(){
 
     if(side1===side2&&side2===side3){
     	alert ("Equilateral triangle.(All sides are equal)");
-    }else if((side1===side2&&side2!==side3)||(side1===side3&&side3!==side2)||(side2===side3&&side3!==side1)){
+    }else if((side1===side2&&side2!==side3)||(side1===side3&&side3!==side2)||(side2===side3&&side3!==side1)&&((side1+side2>side3)&&(side1+side3>side2)&&(side2+side3>side1))){
     	alert("Isosceles triangle.(Two sides are equal)");
-    }else if(side1!==side2&&side2!==side3&&side1!==side3){
+    }else if(side1!==side2&&side2!==side3&&side1!==side3)&&((side1+side2>side3)&&(side1+side3>side2)&&(side2+side3>side1)){
     	alert("Scalene triangle.(No side is equal)");
     }
 }
