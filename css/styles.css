@@ -9,5 +9,8 @@ body {
 	font-style: oblique;
 	color: darkblue;
 	font-size: x-large;
-	margin-left: 20px;
+	margin-left: -450px;
+}
+form{
+	margin-left:500px;
 }
