@@ -6,13 +6,13 @@ function result(){
     var answer=document.getElementById("answer");
 
    if(side1===side2&&side2===side3){
-	 alert("This is an equilateral triangle");
+	 answer.textContent="This is an equilateral triangle";
 }else if(((side1===side2&&side2!==side3)||(side1===side3&&side3!==side2)||(side2===side3&&side3!==side1))&&((side1+side2>side3)&&(side1+side3>side2)&&(side2+side3>side1))){
-	alert("This is an isosceles triangle");
+	answer.textContent="This is an isosceles triangle";
 }else if((side1!==side2&&side2!==side3&&side1!==side3)&&((side1+side2>side3)&&(side1+side3>side2)&&(side2+side3>side1))){
-	alert("This is a scalene triangle");
+	answer.textContent="This is a scalene triangle";
 }else{
-	alert("No triangle can be formed");
+	answer.textContent="No triangle can be formed";
 }
     
 }
