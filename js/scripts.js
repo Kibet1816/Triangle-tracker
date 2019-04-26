@@ -6,9 +6,7 @@ function result(){
     var answer=document.getElementById("answer");
 
    if(side1===side2&&side2===side3){
- 
 	 answer.textContent="Equilateral triangle.(All sides are equal)";
-
 	 answer.textContent="Equilateral triangle. (All sides are equal)";
 	var qrEqual=document.createElement ("img")
 	qrEqual.src="pics/equilateral.png"
