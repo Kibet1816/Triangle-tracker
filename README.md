@@ -6,31 +6,31 @@
 ## Project description
 This is an application that allows a user to key in triangle dimensions and tells the user what kind of triangle is formed.It uses the following logic:
 
--Equilateral triangle;if all sides posses an equal value,
--Isosceles triangle;if only two sides have equal values,
--Scalene triangle ; if neither of the three sides have the same value,
--No triangle at all;if the sum of any of the two sides is less than or equal to the final value.
+- Equilateral triangle;if all sides posses an equal value,
+- Isosceles triangle;if only two sides have equal values,
+- Scalene triangle ; if neither of the three sides have the same value,
+- No triangle at all;if the sum of any of the two sides is less than or equal to the final value.
  
 ## Setup instructions
--A web browser
--Simply type the dimensions of your triangle in the input fields
--Click on the 'submit' button to view results
--Reload the webpage before trying another set of values
+- A web browser
+- Simply type the dimensions of your triangle in the input fields
+- Click on the 'submit' button to view results
+- Reload the webpage before trying another set of values
 
-##BDD
+## BDD
 The application is required to do the following:
--Accept user input
--Load results after the submit button is clicked
--The results should include the type of triangle formed and a picture of the triangle
+- Accept user input
+- Load results after the submit button is clicked
+- The results should include the type of triangle formed and a picture of the triangle
 
-##Technologies used
+## Technologies used
 The following languages have been used to write the application:
--HTML,
--JavaScript,
--CSS, and
--Markdown.
+- HTML,
+- JavaScript,
+- CSS, and
+- Markdown.
 
-##License and copyright information
+## License and copyright information
 
 MIT License
 
