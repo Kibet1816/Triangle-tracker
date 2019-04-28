@@ -28,9 +28,11 @@ form {
 	}
 }
 legend{
-	color: aliceblue;
+	color: red;
+	font-size: larger;
 }
 fieldset{
 	width: 310px;
 	margin-left: -60px;
+	background-color: green;
 }
