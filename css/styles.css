@@ -19,4 +19,18 @@ form {
 .formation p{
 	color: aliceblue;
 }
-.input 
+@media screen and (max-width: 480px){
+	form{
+		margin-left: 60px;
+	}
+	body{
+		background-color: yellowgreen;
+	}
+}
+legend{
+	color: aliceblue;
+}
+fieldset{
+	width: 310px;
+	margin-left: -60px;
+}
