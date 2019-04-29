@@ -37,3 +37,6 @@ fieldset{
 	background-color: green;
 	background-image: url('../pics/light.jpg');
 }
+.refresh {
+	font-style: oblique; 
+}
