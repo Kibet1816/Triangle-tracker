@@ -25,6 +25,9 @@ function result(){
 	var qrScal=document.createElement ("img")
 	qrScal.src="pics/scalene.png"
 	document.body.appendChild(qrScal);
+// Add conditional for NaN
+}else if((isNaN(side1)===true)||(isNaN(side2)===true)||(isNaN(side3)===true)){
+	answer.innerHTML="Please use numbers";
 // Add final conditional
 }else{
 	answer.innerHTML="No triangle can be formed";
