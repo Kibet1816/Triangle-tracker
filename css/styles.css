@@ -37,6 +37,8 @@ fieldset{
 	background-color: green;
 	background-image: url('../pics/light.jpg');
 }
-.refresh {
-	font-style: oblique; 
+.formation .refresh{
+	font-style: oblique;
+	color: chartreuse;
+	font-size: larger;
 }
